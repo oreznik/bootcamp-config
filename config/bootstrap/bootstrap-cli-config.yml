@@ -89,7 +89,7 @@ bootstrap:
                 description: Use case 001 Over all Equipment effectiveness
 
 
-# de-facto standards for CDF CogniteClient and logger configuration.
+# de-facto standards for CDF CogniteClient and logger configuratio.
 # Following the same parameter structure as the 'Cognite Python Extractor-Utilities'
 # and 'Cognite DB Extractor' configuration.
 cognite: # kwargs to pass to the CogniteClient, Environment variable format: ${ENVIRONMENT_VARIABLE_NAME}
