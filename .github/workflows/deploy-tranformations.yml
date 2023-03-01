@@ -3,16 +3,15 @@
 # AUTHENTICATION OPTION 1:            #
 #                          Using OIDC #
 #######################################
-name: Deploy transformations
+name: deploy-transformations
 
 on:
     push:
-        #branches: [main]
-        branches: [none]
-
+        branches: [main]
+        #branches: [none ]
 jobs:
     deploy:
-        name: Deploy transformations
+        name: deploy-transformations
         runs-on: ubuntu-latest
         strategy:
             matrix:
